@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		2665E9261FBD77C4003BAEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E9251FBD77C4003BAEF9 /* main.m */; };
-		2665E9291FBD77C4003BAEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E9281FBD77C4003BAEF9 /* AppDelegate.m */; };
 		2665E92C1FBD77C4003BAEF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E92B1FBD77C4003BAEF9 /* ViewController.m */; };
 		2665E92F1FBD77C4003BAEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2665E92D1FBD77C4003BAEF9 /* Main.storyboard */; };
 		2665E9311FBD77C4003BAEF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2665E9301FBD77C4003BAEF9 /* Assets.xcassets */; };
 		2665E9341FBD77C4003BAEF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2665E9321FBD77C4003BAEF9 /* LaunchScreen.storyboard */; };
+		2665E93E1FBD7930003BAEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E93D1FBD7930003BAEF9 /* AppDelegate.m */; };
+		2665E9441FBD7A74003BAEF9 /* QZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E9431FBD7A74003BAEF9 /* QZTabBarController.m */; };
+		2665E9471FBD7A98003BAEF9 /* QZNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E9461FBD7A98003BAEF9 /* QZNavgationController.m */; };
+		2665E94C1FBD7B94003BAEF9 /* QZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E94B1FBD7B94003BAEF9 /* QZBaseTableViewController.m */; };
+		2665E94F1FBD7BE6003BAEF9 /* QZChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E94E1FBD7BE5003BAEF9 /* QZChatViewController.m */; };
+		2665E9521FBD7C60003BAEF9 /* QZDiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E9511FBD7C60003BAEF9 /* QZDiscoverTableViewController.m */; };
+		2665E9561FBD9117003BAEF9 /* QZAnalogDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2665E9551FBD9117003BAEF9 /* QZAnalogDataGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2665E9211FBD77C4003BAEF9 /* QZAppFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZAppFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2665E9251FBD77C4003BAEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2665E9271FBD77C4003BAEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2665E9281FBD77C4003BAEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2665E92A1FBD77C4003BAEF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2665E92B1FBD77C4003BAEF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2665E92E1FBD77C4003BAEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2665E9301FBD77C4003BAEF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2665E9331FBD77C4003BAEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2665E9351FBD77C4003BAEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2665E93C1FBD7930003BAEF9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2665E93D1FBD7930003BAEF9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2665E9421FBD7A74003BAEF9 /* QZTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTabBarController.h; sourceTree = "<group>"; };
+		2665E9431FBD7A74003BAEF9 /* QZTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTabBarController.m; sourceTree = "<group>"; };
+		2665E9451FBD7A98003BAEF9 /* QZNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZNavgationController.h; sourceTree = "<group>"; };
+		2665E9461FBD7A98003BAEF9 /* QZNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZNavgationController.m; sourceTree = "<group>"; };
+		2665E94A1FBD7B94003BAEF9 /* QZBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBaseTableViewController.h; sourceTree = "<group>"; };
+		2665E94B1FBD7B94003BAEF9 /* QZBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBaseTableViewController.m; sourceTree = "<group>"; };
+		2665E94D1FBD7BE5003BAEF9 /* QZChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZChatViewController.h; sourceTree = "<group>"; };
+		2665E94E1FBD7BE5003BAEF9 /* QZChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZChatViewController.m; sourceTree = "<group>"; };
+		2665E9501FBD7C60003BAEF9 /* QZDiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDiscoverTableViewController.h; sourceTree = "<group>"; };
+		2665E9511FBD7C60003BAEF9 /* QZDiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDiscoverTableViewController.m; sourceTree = "<group>"; };
+		2665E9541FBD9117003BAEF9 /* QZAnalogDataGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZAnalogDataGenerator.h; sourceTree = "<group>"; };
+		2665E9551FBD9117003BAEF9 /* QZAnalogDataGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZAnalogDataGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +76,11 @@
 		2665E9231FBD77C4003BAEF9 /* QZAppFrame */ = {
 			isa = PBXGroup;
 			children = (
-				2665E9271FBD77C4003BAEF9 /* AppDelegate.h */,
-				2665E9281FBD77C4003BAEF9 /* AppDelegate.m */,
+				2665E9531FBD90DE003BAEF9 /* DataSource */,
+				2665E9491FBD7B16003BAEF9 /* QZBaseTableViewController */,
+				2665E9481FBD7AD2003BAEF9 /* TestControllers */,
+				2665E93F1FBD7A4B003BAEF9 /* QZFrameContent */,
+				2665E93B1FBD7930003BAEF9 /* AppDelegate */,
 				2665E92A1FBD77C4003BAEF9 /* ViewController.h */,
 				2665E92B1FBD77C4003BAEF9 /* ViewController.m */,
 				2665E92D1FBD77C4003BAEF9 /* Main.storyboard */,
@@ -77,6 +98,71 @@
 				2665E9251FBD77C4003BAEF9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2665E93B1FBD7930003BAEF9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2665E93C1FBD7930003BAEF9 /* AppDelegate.h */,
+				2665E93D1FBD7930003BAEF9 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2665E93F1FBD7A4B003BAEF9 /* QZFrameContent */ = {
+			isa = PBXGroup;
+			children = (
+				2665E9401FBD7A4B003BAEF9 /* QZNavgationBarColler */,
+				2665E9411FBD7A4B003BAEF9 /* QZTabBarController */,
+			);
+			path = QZFrameContent;
+			sourceTree = "<group>";
+		};
+		2665E9401FBD7A4B003BAEF9 /* QZNavgationBarColler */ = {
+			isa = PBXGroup;
+			children = (
+				2665E9451FBD7A98003BAEF9 /* QZNavgationController.h */,
+				2665E9461FBD7A98003BAEF9 /* QZNavgationController.m */,
+			);
+			path = QZNavgationBarColler;
+			sourceTree = "<group>";
+		};
+		2665E9411FBD7A4B003BAEF9 /* QZTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				2665E9421FBD7A74003BAEF9 /* QZTabBarController.h */,
+				2665E9431FBD7A74003BAEF9 /* QZTabBarController.m */,
+			);
+			path = QZTabBarController;
+			sourceTree = "<group>";
+		};
+		2665E9481FBD7AD2003BAEF9 /* TestControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2665E94D1FBD7BE5003BAEF9 /* QZChatViewController.h */,
+				2665E94E1FBD7BE5003BAEF9 /* QZChatViewController.m */,
+				2665E9501FBD7C60003BAEF9 /* QZDiscoverTableViewController.h */,
+				2665E9511FBD7C60003BAEF9 /* QZDiscoverTableViewController.m */,
+			);
+			path = TestControllers;
+			sourceTree = "<group>";
+		};
+		2665E9491FBD7B16003BAEF9 /* QZBaseTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2665E94A1FBD7B94003BAEF9 /* QZBaseTableViewController.h */,
+				2665E94B1FBD7B94003BAEF9 /* QZBaseTableViewController.m */,
+			);
+			path = QZBaseTableViewController;
+			sourceTree = "<group>";
+		};
+		2665E9531FBD90DE003BAEF9 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2665E9541FBD9117003BAEF9 /* QZAnalogDataGenerator.h */,
+				2665E9551FBD9117003BAEF9 /* QZAnalogDataGenerator.m */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2665E9471FBD7A98003BAEF9 /* QZNavgationController.m in Sources */,
+				2665E94C1FBD7B94003BAEF9 /* QZBaseTableViewController.m in Sources */,
+				2665E93E1FBD7930003BAEF9 /* AppDelegate.m in Sources */,
+				2665E9521FBD7C60003BAEF9 /* QZDiscoverTableViewController.m in Sources */,
 				2665E92C1FBD77C4003BAEF9 /* ViewController.m in Sources */,
-				2665E9291FBD77C4003BAEF9 /* AppDelegate.m in Sources */,
+				2665E9441FBD7A74003BAEF9 /* QZTabBarController.m in Sources */,
+				2665E9561FBD9117003BAEF9 /* QZAnalogDataGenerator.m in Sources */,
 				2665E9261FBD77C4003BAEF9 /* main.m in Sources */,
+				2665E94F1FBD7BE6003BAEF9 /* QZChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +399,7 @@
 				2665E93A1FBD77C4003BAEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
